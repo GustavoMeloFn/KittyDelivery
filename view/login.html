@@ -1,25 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Kitty Delivery | Sign In</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/login.css">
-    <script src="../script/login.js"></script>
-</head>
-<body>
-    <div>
-        <h1>Login</h1>
-        <input type="email" placeholder="Email"/>
-        <br><br>
+<link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+</html>
+    <head>
+        <title></title>
+        <script src="../script/cadastro.js"></script>    
+        <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" media="screen" />        
+    </head>
+    <body>
+       
+        <section class="form">
+          
+            <div>
+                <form>
+                    <h1 style="text-align: center;">Faça login</h1>
 
-        <input type="password" placeholder="Senha"/>
-        <br><br>
 
-        <a href="home.html"><button>Entrar</button></a>
-        <h5>Não possui uma conta? <a href="cadastro.html">Crie uma</a ></h5>
-        <h5><a href="">Esqueceu a senha?</a></h5>
-    </div>
-</body>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+
+                
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                   
+                    <input type="button" value="Submit" onclick="fazerLogin()">
+
+                </form>
+            </div>
+
+        </section>
+
+        <footer> 
+            <h1> </h1>
+        </footer>
+
+        <script src="../script/login.js"></script>
+
+    </body>
+</html>
+
+   </body>
 </html>

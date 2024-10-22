@@ -1,13 +1,84 @@
+body{
+    background-color: #BC7C63;
+    color: black;
+
+}
 
 
-/* Responsividade: */
-/* Celular */
-@media (min-width: 320px) and (max-width: 414px) {
+form { 
+    background-color: #f4f4f7;
+    color: black;
+    position:  absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+        
+}
+
+a{
+    background-color: white;
+    border: none;
+    color: #ba3942;
+    font-family: 'Franklin Gothic Medium';
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;  
+}
+img{
+    padding: 15px;
+    width: 130px; 
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: none;
+    border-radius: 15px;
     
 }
 
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: none;
+    border-radius: 15px;
+    
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+
+input[type=button] {
+    width: 100%;
+    background-color: #BA3942;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+  
+/* Responsividade: */
+/* Celular */
+/* @media (min-width: 320px) and (max-width: 414px) {
+    
+} */
+
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1280px) {
+/* @media (min-width: 768px) and (max-width: 1280px) {
     body {
         font-family: 'Franklin Gothic Medium';
         color: rgb(165, 21, 43);
@@ -50,9 +121,9 @@
         padding-bottom: 30px;
         border-radius: 50px;
     }
-    
+     */
     /* Estilos para dispositivos entre 768px e 1280px */
-    @media (min-width: 768px) and (max-width: 1280px) {
+    /* @media (min-width: 768px) and (max-width: 1280px) {
         form {
             width: 70%;
             padding-left: 40px; 
@@ -76,4 +147,4 @@
             border-radius: 10px; 
         }
     }
-}
+} */
